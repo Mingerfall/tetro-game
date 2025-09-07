@@ -7,12 +7,13 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="canonical" href="https://tetro-game.ru/">
     <meta name="robots" content="noindex">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
     <title>Tetro Game</title>
 </head>
 <body>
         <!-- Шапка сайта -->
     <header>
-            <!-- Логотип -->
+            <!-- Логотип в шапке -->
         <div class="header-logo">
             <a href="#"><img src="img/logo.svg" alt="Tetro Game логотип"></a>
         </div>
@@ -25,9 +26,9 @@
         </nav>
             <!-- Иконки соц. сетей -->
         <div class="header-soc">
-            <a href="#"><img src="img/telegram-icon.svg" alt="Telegram" class="soc-icon"></a>
-            <a href="#"><img src="img/vk-icon.svg" alt="VK" class="soc-icon"></a>
-            <a href="#"><img src="img/whatsapp-icon.svg" alt="WhatsApp" class="soc-icon"></a>
+            <a href="https://t.me/tetrogames/" target="_blank" rel="nofollow"><img src="img/telegram-icon.svg" alt="Telegram" class="soc-icon"></a>
+            <a href="https://vk.com/tetrogames/" target="_blank" rel="nofollow"><img src="img/vk-icon.svg" alt="VK" class="soc-icon"></a>
+            <a href="https://wa.me/79047643897/" target="_blank" rel="nofollow"><img src="img/whatsapp-icon.svg" alt="WhatsApp" class="soc-icon"></a>
         </div>
             <!-- Кнопка бургер-меню для мобилок -->
         <button class="burger-menu" aria-label="Открыть меню">
@@ -43,9 +44,9 @@
             <a href="contacts.html">Контакты</a>
                 <!-- Соцсети для мобильной версии -->
             <div class="mobile-soc">
-                <a href="#"><img src="img/telegram-icon.svg" alt="Telegram" class="soc-icon"></a>
-                <a href="#"><img src="img/vk-icon.svg" alt="VK" class="soc-icon"></a>
-                <a href="#"><img src="img/whatsapp-icon.svg" alt="WhatsApp" class="soc-icon"></a>
+                <a href="https://t.me/tetrogames/" target="_blank" rel="nofollow"><img src="img/telegram-icon.svg" alt="Telegram" class="soc-icon"></a>
+                <a href="https://vk.com/tetrogames/" target="_blank" rel="nofollow"><img src="img/vk-icon.svg" alt="VK" class="soc-icon"></a>
+                <a href="https://wa.me/79047643897/" target="_blank" rel="nofollow"><img src="img/whatsapp-icon.svg" alt="WhatsApp" class="soc-icon"></a>
             </div>
         </div>
                 <!-- Затемнение фона при открытом меню -->
@@ -54,13 +55,13 @@
     <main>
         <!-- Первый экран (главная секция) -->    
     <section class="morda">
-        <div class="morda-content">
+        <div class="morda__features">
             <h1>Ремонт игровых приставок и смартфонов Tetro Game</h1>
-            <p>Первое преимущество</p>
-            <p>Второе преимущество</p>
-            <p>Третье преимущество</p>
-            <p>Четвёртое преимущество</p>
-            <button>Позвонить</button>
+            <p>Используем качественные детали</p>
+            <p>Чиним смартфоны при вас от 20 минут, бесплатная диагностика</p>
+            <p>Опытные мастера</p>
+            <p>Бронирование/защита экрана смартфона инновационным покрытием</p>
+            <button> <a href="tel:89047643897">Позвонить</a></button>
         </div>
             <!-- Контейнер для логотипа -->
         <div class="morda-logo">
@@ -76,7 +77,22 @@
         <!-- Услуги -->
     <div id="uslugi-glavnaya">
         <h2>Наши Услуги и цены</h2>
-        <p>Перечисляем Услуги и задаём им цены</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>
+                        тест
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        тест
+                    </td>
+                </tr>
+            </tbody>
+        </table>
     </div>
         <!-- О нас -->
     <div class="about">
@@ -93,16 +109,38 @@
         <h2>Отзывы</h2>
     <div style="width:750px;max-width:100%;height:800px;overflow:hidden;position:relative;"><iframe style="width:100%;height:100%;border:1px solid #e6e6e6;border-radius:8px;box-sizing:border-box" src="https://yandex.ru/maps-reviews-widget/103849672569?comments"></iframe><a href="https://yandex.ru/maps/org/tetro_game/103849672569/" target="_blank" style="box-sizing:border-box;text-decoration:none;color:#b3b3b3;font-size:10px;font-family:YS Text,sans-serif;padding:0 20px;position:absolute;bottom:8px;width:100%;text-align:center;left:0;overflow:hidden;text-overflow:ellipsis;display:block;max-height:14px;white-space:nowrap;padding:0 16px;box-sizing:border-box">Tetro Game на карте Нижнекамска — Яндекс Карты</a></div>
     </div>
-        <!-- Контакты -->
-    <div id="contacts-glavnaya">
-        <h2>Блок обратной связи и карта над футером сайта</h2>
-            <p>Вообще тут будет блок обратной связи с кнопкой, а после уже карта Яндекса</p>
-            <iframe class="my-widget" src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=103849672569" width="750" height="400" frameborder="0"></iframe>
+    <!-- Форма обратной связи -->
+<!-- Форма обратной связи - улучшенная версия -->
+<section class="form">
+  <div class="form__container">
+    <div class="form__content">
+      <h2 class="form__title">Оставьте свои контакты</h2>
+      <p class="form__description">Поможем определить поломку. Назовём цену ремонта смартфона. Назовём сроки починки вашего устройства.</p>
+      <form class="form__contact">
+        <div class="form__group">
+          <label for="name" class="form__label">Ваше имя</label>
+          <input type="text" placeholder="Введите имя" id="name" name="name" class="form__input" required>
+        </div>
+        <div class="form__group">
+          <label for="email" class="form__label">Ваша почта</label>
+          <input type="email" placeholder="Введите почту" id="email" name="email" class="form__input" required>
+        </div>
+        <div class="form__group">
+          <label for="phone" class="form-label">Номер телефона</label>
+          <input type="tel" placeholder="Введите номер телефона" id="phone" name="phone" class="form__input" required>
+        </div>
+        <button type="submit" class="submit__btn">Отправить заявку</button>
+      </form>
     </div>
+    <div class="form__map-container">
+      <iframe class="map-widget" src="https://yandex.ru/map-widget/v1/?z=12&ol=biz&oid=103849672569" width="100%" height="100%" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
     </main>
         <!-- Футер -->
     <footer>
-        <p>© 2025 Tetro Game. Все права защищены.</p>
+        <p>® 2025 Tetro Game. Все права защищены.</p>
     </footer>
         <!-- Подключаем JavaScript файл -->
     <script src="js/script.js"></script>
